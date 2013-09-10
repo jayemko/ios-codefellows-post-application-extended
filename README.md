@@ -7,8 +7,6 @@ CodeFellows > Assignments > Applying MVC
 3. Create a PostsViewController to display a collection of posts
 4. Create another controller to create a new post
 
-Challenge
-
-Persist the data somehow between app launches
-
-Use whatever type of data persistence you want (bonus for using NSKeyedArchiver/NSKeyedUnarchiver)
+Challenge:
+- Persist the data somehow between app launches
+- Use whatever type of data persistence you want (bonus for using NSKeyedArchiver/NSKeyedUnarchiver)
