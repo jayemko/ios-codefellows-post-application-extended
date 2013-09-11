@@ -13,7 +13,7 @@
 
 @property (strong, nonatomic) IBOutlet UILabel *usernameLabel;
 @property (strong, nonatomic) IBOutlet UILabel *dateLabel;
-@property (nonatomic, strong) IBOutlet UILabel *contentLabel;
+@property (nonatomic, strong) IBOutlet UITextView *contentLabel;
 @property (nonatomic, strong) Post *post;
 
 

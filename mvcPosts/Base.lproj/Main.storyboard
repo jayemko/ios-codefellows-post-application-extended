@@ -134,18 +134,19 @@
                                 <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Body of text..." lineBreakMode="tailTruncation" numberOfLines="75" baselineAdjustment="alignBaselines" adjustsLetterSpacingToFitWidth="YES" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="280" translatesAutoresizingMaskIntoConstraints="NO" id="zUr-QU-rNo">
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2aD-0u-Mrh">
                                 <rect key="frame" x="20" y="100" width="280" height="448"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="12"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <navigationItem key="navigationItem" id="otP-em-ciP"/>
                     <connections>
-                        <outlet property="contentLabel" destination="zUr-QU-rNo" id="tZ5-Kz-cLU"/>
+                        <outlet property="contentLabel" destination="2aD-0u-Mrh" id="N5S-3p-htu"/>
                         <outlet property="dateLabel" destination="fPf-Hp-dM9" id="N2M-bi-EBY"/>
                         <outlet property="usernameLabel" destination="xZX-DS-RZF" id="INz-5V-oHS"/>
                     </connections>

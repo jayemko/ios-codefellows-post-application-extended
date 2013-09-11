@@ -24,7 +24,6 @@
 		3C1FF30517DF61480050B803 /* Post.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C1FF30417DF61480050B803 /* Post.m */; };
 		3C1FF30817DF67220050B803 /* PostViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C1FF30717DF67220050B803 /* PostViewViewController.m */; };
 		3C7B27C517DFC5700010C15F /* NewPostViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C7B27C417DFC5700010C15F /* NewPostViewController.m */; };
-		3C7B27CB17DFDC1A0010C15F /* PostArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C7B27CA17DFDC1A0010C15F /* PostArray.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,8 +62,6 @@
 		3C1FF30717DF67220050B803 /* PostViewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PostViewViewController.m; sourceTree = "<group>"; };
 		3C7B27C317DFC5700010C15F /* NewPostViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewPostViewController.h; sourceTree = "<group>"; };
 		3C7B27C417DFC5700010C15F /* NewPostViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewPostViewController.m; sourceTree = "<group>"; };
-		3C7B27C917DFDC1A0010C15F /* PostArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PostArray.h; sourceTree = "<group>"; };
-		3C7B27CA17DFDC1A0010C15F /* PostArray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PostArray.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -129,8 +126,6 @@
 				3C1FF2DE17DF60610050B803 /* PostAppDelegate.m */,
 				3C1FF30317DF61480050B803 /* Post.h */,
 				3C1FF30417DF61480050B803 /* Post.m */,
-				3C7B27C917DFDC1A0010C15F /* PostArray.h */,
-				3C7B27CA17DFDC1A0010C15F /* PostArray.m */,
 				3C7B27C317DFC5700010C15F /* NewPostViewController.h */,
 				3C7B27C417DFC5700010C15F /* NewPostViewController.m */,
 				3C1FF30617DF67220050B803 /* PostViewViewController.h */,
@@ -275,7 +270,6 @@
 				3C1FF2E517DF60610050B803 /* PostViewController.m in Sources */,
 				3C7B27C517DFC5700010C15F /* NewPostViewController.m in Sources */,
 				3C1FF30517DF61480050B803 /* Post.m in Sources */,
-				3C7B27CB17DFDC1A0010C15F /* PostArray.m in Sources */,
 				3C1FF30817DF67220050B803 /* PostViewViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
