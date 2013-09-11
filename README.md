@@ -1,12 +1,10 @@
-Applying MVC
+Applying MVC - Part 2
 ============================
-CodeFellows > Assignments > Applying MVC
+CodeFellows > Assignments > Extending class functionality 
 
-1. Using the MVC design pattern, create a data model for a Post that has userName, title, content, and timeStamp properties
-2. Create a Post view which displays the post properties
-3. Create a PostsViewController to display a collection of posts
-4. Create another controller to create a new post
-
-Challenge:
-- Persist the data somehow between app launches
-- Use whatever type of data persistence you want (bonus for using NSKeyedArchiver/NSKeyedUnarchiver)
+1. Using your Post project from yesterday, write a new view controller to edit a post. (It could be a subclass of your "create post" view controller, which has data pre-populated when a user selects a post to edit.)
+2. Write a protocol to surround the editing of a post. The post should have a delegate which it can inform when its data have changed, and it should have a data source from which it can request a new timestamp. (The delegate may be the PostsViewController, but the data source should probably be a new object.)
+3. Write a category on UIColor that will do two things:
+Return a random color
+Lighten a given color
+4. Give each post in your PostsViewController a random background color. The background color should not change when the view scrolls (if your view scrolls).
